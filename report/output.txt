@@ -1,0 +1,249 @@
+Reading Leads/RM List form Excel
+------------------------------------
+
+READ: Leads List with 10 records
+
+READ: RMs List with 4 records
+
+START: Leads GeoMapper Pairing Process
+------------------------------------
+
+MATCH: For lead Alice and product insurance, RM Charlie is at distance of 1144.291273946347 with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 1
+PAIR: For lead Alice, RM Charlie at distance 1144.291273946347 is paired, new availability is 0
+MATCH: For lead Alice and product insurance, RM Goliath is at distance of 4129.08616505731 with expertise ['investments', 'insurance'] and availability 8
+NO_MATCH: For lead Alice and product insurance, RM Emily with expertise ['loans', 'credit cards'] and availability 7
+MATCH: For lead Alice and product insurance, RM Hank is at distance of 0.0 with expertise ['personal banking', 'insurance'] and availability 5
+PAIR: For lead Alice, RM Hank at distance 0.0 is paired, new availability is 4
+UN-PAIR: For lead Alice, RM Charlie at distance 1144.291273946347 is un-paired, new availability is 1
+MATCH: For lead Bob and product loans, RM Charlie is at distance of 2803.9715069751933 with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 1
+PAIR: For lead Bob, RM Charlie at distance 2803.9715069751933 is paired, new availability is 0
+NO_MATCH: For lead Bob and product loans, RM Goliath with expertise ['investments', 'insurance'] and availability 8
+MATCH: For lead Bob and product loans, RM Emily is at distance of 0.0 with expertise ['loans', 'credit cards'] and availability 7     
+PAIR: For lead Bob, RM Emily at distance 0.0 is paired, new availability is 6
+UN-PAIR: For lead Bob, RM Charlie at distance 2803.9715069751933 is un-paired, new availability is 1
+NO_MATCH: For lead Bob and product loans, RM Hank with expertise ['personal banking', 'insurance'] and availability 4
+MATCH: For lead Catherine and product credit cards, RM Charlie is at distance of 2984.9076637919884 with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 1
+PAIR: For lead Catherine, RM Charlie at distance 2984.9076637919884 is paired, new availability is 0
+NO_MATCH: For lead Catherine and product credit cards, RM Goliath with expertise ['investments', 'insurance'] and availability 8      
+MATCH: For lead Catherine and product credit cards, RM Emily is at distance of 559.1205770615533 with expertise ['loans', 'credit cards'] and availability 6
+PAIR: For lead Catherine, RM Emily at distance 559.1205770615533 is paired, new availability is 5
+UN-PAIR: For lead Catherine, RM Charlie at distance 2984.9076637919884 is un-paired, new availability is 1
+NO_MATCH: For lead Catherine and product credit cards, RM Hank with expertise ['personal banking', 'insurance'] and availability 4    
+NO_MATCH: For lead David and product investments, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 1
+MATCH: For lead David and product investments, RM Goliath is at distance of 2984.9076637919884 with expertise ['investments', 'insurance'] and availability 8
+PAIR: For lead David, RM Goliath at distance 2984.9076637919884 is paired, new availability is 7
+NO_MATCH: For lead David and product investments, RM Emily with expertise ['loans', 'credit cards'] and availability 5
+NO_MATCH: For lead David and product investments, RM Hank with expertise ['personal banking', 'insurance'] and availability 4
+MATCH: For lead Eva and product personal banking, RM Charlie is at distance of 1576.3717070627729 with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 1
+PAIR: For lead Eva, RM Charlie at distance 1576.3717070627729 is paired, new availability is 0
+NO_MATCH: For lead Eva and product personal banking, RM Goliath with expertise ['investments', 'insurance'] and availability 7        
+NO_MATCH: For lead Eva and product personal banking, RM Emily with expertise ['loans', 'credit cards'] and availability 5
+MATCH: For lead Eva and product personal banking, RM Hank is at distance of 2431.610906663463 with expertise ['personal banking', 'insurance'] and availability 4
+NO_MATCH: For lead Frank and product loans, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 0
+NO_MATCH: For lead Frank and product loans, RM Goliath with expertise ['investments', 'insurance'] and availability 7
+MATCH: For lead Frank and product loans, RM Emily is at distance of 1335.516505019301 with expertise ['loans', 'credit cards'] and availability 5
+PAIR: For lead Frank, RM Emily at distance 1335.516505019301 is paired, new availability is 4
+NO_MATCH: For lead Frank and product loans, RM Hank with expertise ['personal banking', 'insurance'] and availability 4
+NO_MATCH: For lead Grace and product insurance, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 0
+MATCH: For lead Grace and product insurance, RM Goliath is at distance of 3918.5453581456654 with expertise ['investments', 'insurance'] and availability 7
+PAIR: For lead Grace, RM Goliath at distance 3918.5453581456654 is paired, new availability is 6
+NO_MATCH: For lead Grace and product insurance, RM Emily with expertise ['loans', 'credit cards'] and availability 4
+MATCH: For lead Grace and product insurance, RM Hank is at distance of 327.5827136298539 with expertise ['personal banking', 'insurance'] and availability 4
+PAIR: For lead Grace, RM Hank at distance 327.5827136298539 is paired, new availability is 3
+UN-PAIR: For lead Grace, RM Goliath at distance 3918.5453581456654 is un-paired, new availability is 7
+NO_MATCH: For lead Henry and product credit cards, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 0
+NO_MATCH: For lead Henry and product credit cards, RM Goliath with expertise ['investments', 'insurance'] and availability 7
+MATCH: For lead Henry and product credit cards, RM Emily is at distance of 367.6063223530297 with expertise ['loans', 'credit cards'] and availability 4
+PAIR: For lead Henry, RM Emily at distance 367.6063223530297 is paired, new availability is 3
+NO_MATCH: For lead Henry and product credit cards, RM Hank with expertise ['personal banking', 'insurance'] and availability 3        
+NO_MATCH: For lead Isabel and product investments, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 0
+MATCH: For lead Isabel and product investments, RM Goliath is at distance of 10313.700332932694 with expertise ['investments', 'insurance'] and availability 7
+PAIR: For lead Isabel, RM Goliath at distance 10313.700332932694 is paired, new availability is 6
+NO_MATCH: For lead Isabel and product investments, RM Emily with expertise ['loans', 'credit cards'] and availability 3
+NO_MATCH: For lead Isabel and product investments, RM Hank with expertise ['personal banking', 'insurance'] and availability 3        
+NO_MATCH: For lead Jack and product personal banking, RM Charlie with expertise ['insurance', 'loans', 'credit cards', 'personal banking'] and availability 0
+NO_MATCH: For lead Jack and product personal banking, RM Goliath with expertise ['investments', 'insurance'] and availability 6       
+NO_MATCH: For lead Jack and product personal banking, RM Emily with expertise ['loans', 'credit cards'] and availability 3
+MATCH: For lead Jack and product personal banking, RM Hank is at distance of 9122.982073392493 with expertise ['personal banking', 'insurance'] and availability 3
+PAIR: For lead Jack, RM Hank at distance 9122.982073392493 is paired, new availability is 2
+END: Leads GeoMapper Pairing Process - Pairs 10, UnPaired 0
+
+------------------------------------
+
+Email Report for RM: Hank
+
+Dear Hank,
+
+Here are the leads you need to pursue:
+
+Lead Name: Alice
+Lead Channel: branch
+Product to Pitch: insurance
+Last Active: 2024-10-11 00:00:00
+Preferred Time of Day: morning
+Preferred Day of Week: mon,wed
+Propensity Score: 0.5
+High Net Worth: Yes
+Distance from RM: 0.00 km
+Reason for Pairing: Lead Alice is looking for product insurance and is the closest to RM Hank at about 0 kms away and an availability of 4/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=40.7128,-74.006&destination=40.7128,-74.006
+
+Lead Name: Grace
+Lead Channel: branch
+Product to Pitch: insurance
+Last Active: 2024-10-08 00:00:00
+Preferred Time of Day: evening
+Preferred Day of Week: wed,sun
+Propensity Score: 0.5
+High Net Worth: No
+Distance from RM: 327.58 km
+Reason for Pairing: Lead Grace is looking for product insurance and is the closest to RM Hank at about 328 kms away and an availability of 3/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=38.9072,-77.0369&destination=40.7128,-74.006
+
+Lead Name: Jack
+Lead Channel: event
+Product to Pitch: personal banking
+Last Active: 2024-10-11 00:00:00
+Preferred Time of Day: evening
+Preferred Day of Week: mon,fri
+Propensity Score: 0.8
+High Net Worth: No
+Distance from RM: 9122.98 km
+Reason for Pairing: Lead Jack is looking for product personal banking and is the closest to RM Hank at about 9123 kms away and an availability of 2/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=-33.4484,-112.074&destination=40.7128,-74.006
+
+Best Regards,
+Your Sales Team
+
+------------------------------------
+
+Email Report for RM: Emily
+
+Dear Emily,
+
+Here are the leads you need to pursue:
+
+Lead Name: Bob
+Lead Channel: online
+Product to Pitch: loans
+Last Active: 2024-10-15 00:00:00
+Preferred Time of Day: afternoon
+Preferred Day of Week: tue,thu
+Propensity Score: 0.7
+High Net Worth: No
+Distance from RM: 0.00 km
+Reason for Pairing: Lead Bob is looking for product loans and is the closest to RM Emily at about 0 kms away and an availability of 6/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=34.0522,-118.2437&destination=34.0522,-118.2437
+
+Lead Name: Catherine
+Lead Channel: referral
+Product to Pitch: credit cards
+Last Active: 2024-10-12 00:00:00
+Preferred Time of Day: evening
+Preferred Day of Week: mon,fri
+Propensity Score: 0.8
+High Net Worth: Yes
+Distance from RM: 559.12 km
+Reason for Pairing: Lead Catherine is looking for product credit cards and is the closest to RM Emily at about 559 kms away and an availability of 5/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=37.7749,-122.4194&destination=34.0522,-118.2437
+
+Lead Name: Frank
+Lead Channel: email
+Product to Pitch: loans
+Last Active: 2024-10-09 00:00:00
+Preferred Time of Day: morning
+Preferred Day of Week: mon,fri
+Propensity Score: 0.3
+High Net Worth: Yes
+Distance from RM: 1335.52 km
+Reason for Pairing: Lead Frank is looking for product loans and is the closest to RM Emily at about 1336 kms away and an availability of 4/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=39.7392,-104.9903&destination=34.0522,-118.2437
+
+Lead Name: Henry
+Lead Channel: online
+Product to Pitch: credit cards
+Last Active: 2024-10-09 00:00:00
+Preferred Time of Day: afternoon
+Preferred Day of Week: wed,sat
+Propensity Score: 0.6
+High Net Worth: No
+Distance from RM: 367.61 km
+Reason for Pairing: Lead Henry is looking for product credit cards and is the closest to RM Emily at about 368 kms away and an availability of 3/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=36.1699,-115.1398&destination=34.0522,-118.2437
+
+Best Regards,
+Your Sales Team
+
+------------------------------------
+
+Email Report for RM: Goliath
+
+Dear Goliath,
+
+Here are the leads you need to pursue:
+
+Lead Name: David
+Lead Channel: event
+Product to Pitch: investments
+Last Active: 2024-10-14 00:00:00
+Preferred Time of Day: morning
+Preferred Day of Week: wed,sat
+Propensity Score: 0.6
+High Net Worth: No
+Distance from RM: 2984.91 km
+Reason for Pairing: Lead David is looking for product investments and is the closest to RM Goliath at about 2985 kms away and an availability of 7/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=41.8781,-87.6298&destination=37.7749,-122.4194
+
+Lead Name: Isabel
+Lead Channel: referral
+Product to Pitch: investments
+Last Active: 2024-10-10 00:00:00
+Preferred Time of Day: morning
+Preferred Day of Week: tue,thu
+Propensity Score: 0.7
+High Net Worth: No
+Distance from RM: 10313.70 km
+Reason for Pairing: Lead Isabel is looking for product investments and is the closest to RM Goliath at about 10314 kms away and an availability of 6/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=-42.3601,-71.0589&destination=37.7749,-122.4194
+
+Best Regards,
+Your Sales Team
+
+------------------------------------
+
+Email Report for RM: Charlie
+
+Dear Charlie,
+
+Here are the leads you need to pursue:
+
+Lead Name: Eva
+Lead Channel: social media
+Product to Pitch: personal banking
+Last Active: 2024-10-13 00:00:00
+Preferred Time of Day: afternoon
+Preferred Day of Week: tue,thu
+Propensity Score: 0.4
+High Net Worth: No
+Distance from RM: 1576.37 km
+Reason for Pairing: Lead Eva is looking for product personal banking and is the closest to RM Charlie at about 1576 kms away and an availability of 0/10.
+Google Maps Link: https://www.google.com/maps/dir/?api=1&origin=30.2672,-97.7431&destination=41.8781,-87.6298
+
+Best Regards,
+Your Sales Team
+
+------------------------------------
+
+Email Report for Virtual Lead Manager
+
+Dear Virtual Lead Manager,
+
+Below are the leads that could not be paired:
+
+Below are the availability of all RMs:
+
+RM Name: Charlie - Availability: 0/10
+RM Name: Goliath - Availability: 6/10
+RM Name: Emily - Availability: 3/10
+RM Name: Hank - Availability: 2/10
+------------------------------------
