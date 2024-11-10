@@ -2,8 +2,6 @@ from leads_geomapper import pair_entities
 from leads_data import read_leads_list_from_excel, read_rm_list_from_excel
 from collections import defaultdict
 
-GOOGLE_MAPS_API_KEY = '<API Key>'
-
 print('Reading Leads/RM List form Excel')
 print("------------------------------------\n")
 leads_file_path = 'data/leads_list.xlsx' 
