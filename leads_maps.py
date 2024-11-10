@@ -47,7 +47,7 @@ def get_static_map(api_key, origin, destination):
 
 # Example usage
 if __name__ == "__main__":
-    api_key = "AIzaSyCR1j9SU1hMa1ug-41eGztlOFBeRD137es"  # Replace with your actual API key
+    api_key = "<Google Static Maps API Key>"  # Replace with your actual API key
     origin = "40.7128,-74.0060"  # Latitude and longitude for New York City (Alice's location)
     destination = "34.0522,-118.2437"  # Latitude and longitude for Los Angeles (Bob's location)
 
