@@ -1,3 +1,5 @@
+# Primary Concerns and Requirements for Lead Mapping 
+
 1. Single Pairing: Each Lead can only be paired with one RM at a time.
 2. Multiple Leads per RM: An RM can be paired with multiple Leads as long as they are available.
 3. Availability Tracking: The availability score of an RM is a range from 0 to 10, with 0 being unavailable and 10 being most available. This is reduced by 1 after each successful pairing.
