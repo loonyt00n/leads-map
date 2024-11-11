@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_18433e80e105162152426b28b0769e14 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_18433e80e105162152426b28b0769e14" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_18433e80e105162152426b28b0769e14 = L.map(
+                "map_18433e80e105162152426b28b0769e14",
+                {
+                    center: [19.107434, 72.890345],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1230aa324e740aa7211346303abfb5ca = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1230aa324e740aa7211346303abfb5ca.addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var poly_line_342fb10d60fec3f9de66812e7dfbd4a4 = L.polyline(
+                [[19.1923717, 72.94], [19.3, 72.86]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_32b90532663e0d339568ca2d5f5a1e9e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0d6e07e85d288749718c233cba455388 = $(`<div id="html_0d6e07e85d288749718c233cba455388" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 15 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.3,72.86&destination=19.1923717,72.94">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Tata Motors is looking for product insurance and is the closest to RM Suresh at about 15 kms away and an availability of 7/10.</span>             </div>         </div>`)[0];
+                popup_32b90532663e0d339568ca2d5f5a1e9e.setContent(html_0d6e07e85d288749718c233cba455388);
+            
+        
+
+        poly_line_342fb10d60fec3f9de66812e7dfbd4a4.bindPopup(popup_32b90532663e0d339568ca2d5f5a1e9e)
+        ;
+
+        
+    
+    
+            var poly_line_ae8382aeaff1b902501a7ff3fefba5d7 = L.polyline(
+                [[19.062085, 72.865441], [19.01, 72.85]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_c81745a20a86f30ff02b94f045d52be9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_056e476cf28a0430f3c76bde93de8e57 = $(`<div id="html_056e476cf28a0430f3c76bde93de8e57" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 6 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.01,72.85&destination=19.062085,72.865441">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Bajaj Auto is looking for product loans and is the closest to RM Ramesh at about 6 kms away and an availability of 4/10.</span>             </div>         </div>`)[0];
+                popup_c81745a20a86f30ff02b94f045d52be9.setContent(html_056e476cf28a0430f3c76bde93de8e57);
+            
+        
+
+        poly_line_ae8382aeaff1b902501a7ff3fefba5d7.bindPopup(popup_c81745a20a86f30ff02b94f045d52be9)
+        ;
+
+        
+    
+    
+            var poly_line_0d44511f1a939e92d7ef0d96ca212d26 = L.polyline(
+                [[19.12, 72.8], [19.27, 72.96]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_7212756b60d0685316c88cd42bb6aee9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bef441ffd18e31ca6f8471822ab65fca = $(`<div id="html_bef441ffd18e31ca6f8471822ab65fca" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 24 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.27,72.96&destination=19.12,72.8">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Raymond Textiles is looking for product credit cards and is the closest to RM Ram at about 24 kms away and an availability of 1/10.</span>             </div>         </div>`)[0];
+                popup_7212756b60d0685316c88cd42bb6aee9.setContent(html_bef441ffd18e31ca6f8471822ab65fca);
+            
+        
+
+        poly_line_0d44511f1a939e92d7ef0d96ca212d26.bindPopup(popup_7212756b60d0685316c88cd42bb6aee9)
+        ;
+
+        
+    
+    
+            var poly_line_8eed5a649845600fc102e617605387fe = L.polyline(
+                [[19.1923717, 72.94], [19.27, 72.86]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_fd1a527dcddad4127d92eeea8021d36b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7baa8f04d880def4af51f998016a4e03 = $(`<div id="html_7baa8f04d880def4af51f998016a4e03" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 12 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.27,72.86&destination=19.1923717,72.94">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Grasim Exports is looking for product investments and is the closest to RM Suresh at about 12 kms away and an availability of 6/10.</span>             </div>         </div>`)[0];
+                popup_fd1a527dcddad4127d92eeea8021d36b.setContent(html_7baa8f04d880def4af51f998016a4e03);
+            
+        
+
+        poly_line_8eed5a649845600fc102e617605387fe.bindPopup(popup_fd1a527dcddad4127d92eeea8021d36b)
+        ;
+
+        
+    
+    
+            var poly_line_d2f5cab71eb8d4fbfa0613ba1917193a = L.polyline(
+                [[19.062085, 72.865441], [19.13, 72.79]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_87c82599e4620298f319de0453338da9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_23b10971117ade717c8b70a718b3b527 = $(`<div id="html_23b10971117ade717c8b70a718b3b527" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 11 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.13,72.79&destination=19.062085,72.865441">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Rajiv Sighania is looking for product personal banking and is the closest to RM Ramesh at about 11 kms away and an availability of 3/10.</span>             </div>         </div>`)[0];
+                popup_87c82599e4620298f319de0453338da9.setContent(html_23b10971117ade717c8b70a718b3b527);
+            
+        
+
+        poly_line_d2f5cab71eb8d4fbfa0613ba1917193a.bindPopup(popup_87c82599e4620298f319de0453338da9)
+        ;
+
+        
+    
+    
+            var poly_line_a4c7cf86920e2ae2261e590dffc261e5 = L.polyline(
+                [[19.062085, 72.865441], [19.17, 73.02]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_d43259466ca99cb6200389d13b9f434e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5cf0c7920dec43ab0ef65469cf3fec62 = $(`<div id="html_5cf0c7920dec43ab0ef65469cf3fec62" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 20 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.17,73.02&destination=19.062085,72.865441">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Raju Srivastava is looking for product loans and is the closest to RM Ramesh at about 20 kms away and an availability of 2/10.</span>             </div>         </div>`)[0];
+                popup_d43259466ca99cb6200389d13b9f434e.setContent(html_5cf0c7920dec43ab0ef65469cf3fec62);
+            
+        
+
+        poly_line_a4c7cf86920e2ae2261e590dffc261e5.bindPopup(popup_d43259466ca99cb6200389d13b9f434e)
+        ;
+
+        
+    
+    
+            var poly_line_8739887f2771da1020152005cc1f8209 = L.polyline(
+                [[19.062085, 72.865441], [19.0, 72.9]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_b46fd554dc388531555a72453a8baa61 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ff92708794e5ab507d4c503c7aeb4846 = $(`<div id="html_ff92708794e5ab507d4c503c7aeb4846" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 8 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.0,72.9&destination=19.062085,72.865441">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Grace Pinto is looking for product insurance and is the closest to RM Ramesh at about 8 kms away and an availability of 1/10.</span>             </div>         </div>`)[0];
+                popup_b46fd554dc388531555a72453a8baa61.setContent(html_ff92708794e5ab507d4c503c7aeb4846);
+            
+        
+
+        poly_line_8739887f2771da1020152005cc1f8209.bindPopup(popup_b46fd554dc388531555a72453a8baa61)
+        ;
+
+        
+    
+    
+            var poly_line_e54bc0a3cf412f41d7ba7b75644a198e = L.polyline(
+                [[19.062085, 72.865441], [19.0, 72.81]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_83c9ea6ccb06c9b3ca9e0ccab4bdae18 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2878f3b50e755e888b4f480c754b94ab = $(`<div id="html_2878f3b50e755e888b4f480c754b94ab" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 9 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.0,72.81&destination=19.062085,72.865441">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Shalini Bhat is looking for product credit cards and is the closest to RM Ramesh at about 9 kms away and an availability of 0/10.</span>             </div>         </div>`)[0];
+                popup_83c9ea6ccb06c9b3ca9e0ccab4bdae18.setContent(html_2878f3b50e755e888b4f480c754b94ab);
+            
+        
+
+        poly_line_e54bc0a3cf412f41d7ba7b75644a198e.bindPopup(popup_83c9ea6ccb06c9b3ca9e0ccab4bdae18)
+        ;
+
+        
+    
+    
+            var poly_line_11bf106eba2218228aded365e4960b35 = L.polyline(
+                [[19.1923717, 72.94], [19.27, 72.89]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_9592c6c4a38a0c7466098e72e2f56a70 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_df562e41a7e47e9818c7d629ad12e3f4 = $(`<div id="html_df562e41a7e47e9818c7d629ad12e3f4" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 10 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=19.27,72.89&destination=19.1923717,72.94">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Rafeeq Ali is looking for product investments and is the closest to RM Suresh at about 10 kms away and an availability of 5/10.</span>             </div>         </div>`)[0];
+                popup_9592c6c4a38a0c7466098e72e2f56a70.setContent(html_df562e41a7e47e9818c7d629ad12e3f4);
+            
+        
+
+        poly_line_11bf106eba2218228aded365e4960b35.bindPopup(popup_9592c6c4a38a0c7466098e72e2f56a70)
+        ;
+
+        
+    
+    
+            var poly_line_db7770835b317513feaeffc0f17747a4 = L.polyline(
+                [[19.06, 72.98], [18.9, 72.81]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+        var popup_3697711d95315687a7a6af6c69df3542 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_11fa5eee259fd69efe6ff49cd21bd28c = $(`<div id="html_11fa5eee259fd69efe6ff49cd21bd28c" style="width: 100.0%; height: 100.0%;">             <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                 <span>Distance ~ 25 kms</span>                 <a href="https://www.google.com/maps/dir/?api=1&origin=18.9,72.81&destination=19.06,72.98">Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <span>Lead Daji Dorjee is looking for product personal banking and is the closest to RM Shyam at about 25 kms away and an availability of 4/10.</span>             </div>         </div>`)[0];
+                popup_3697711d95315687a7a6af6c69df3542.setContent(html_11fa5eee259fd69efe6ff49cd21bd28c);
+            
+        
+
+        poly_line_db7770835b317513feaeffc0f17747a4.bindPopup(popup_3697711d95315687a7a6af6c69df3542)
+        ;
+
+        
+    
+    
+            var marker_af6e6b2b104ddbe3ffa6bc011ee80381 = L.marker(
+                [19.062085, 72.865441],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_66b309a3a07c2e5455f9dc8d131c7b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "handshake", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_af6e6b2b104ddbe3ffa6bc011ee80381.setIcon(icon_66b309a3a07c2e5455f9dc8d131c7b5d);
+        
+    
+        var popup_960f8216de219ae1f644e4fa289c2b61 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3fd4b7a13dcd3dd7b18afec2e2440152 = $(`<div id="html_3fd4b7a13dcd3dd7b18afec2e2440152" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Ramesh" alt="Ramesh" style="width: 40px;height:auto;">                     <strong>Ramesh</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[rm]</strong>                     <span>Availability: 0/10</span><span>Expertise: ['insurance', 'loans', 'credit cards', 'personal banking']</span>                 </div>             </div>             </div>`)[0];
+                popup_960f8216de219ae1f644e4fa289c2b61.setContent(html_3fd4b7a13dcd3dd7b18afec2e2440152);
+            
+        
+
+        marker_af6e6b2b104ddbe3ffa6bc011ee80381.bindPopup(popup_960f8216de219ae1f644e4fa289c2b61)
+        ;
+
+        
+    
+    
+            var marker_d7598091f814e0f0fcccabb58276da33 = L.marker(
+                [19.1923717, 72.94],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_88f16a25546887349a49372350ccb0ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "handshake", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_d7598091f814e0f0fcccabb58276da33.setIcon(icon_88f16a25546887349a49372350ccb0ef);
+        
+    
+        var popup_d980ac1ac9dfc91f577eeeaa3a70fa31 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_681aad7421b60f758419be85d2e93427 = $(`<div id="html_681aad7421b60f758419be85d2e93427" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Suresh" alt="Suresh" style="width: 40px;height:auto;">                     <strong>Suresh</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[rm]</strong>                     <span>Availability: 5/10</span><span>Expertise: ['investments', 'insurance']</span>                 </div>             </div>             </div>`)[0];
+                popup_d980ac1ac9dfc91f577eeeaa3a70fa31.setContent(html_681aad7421b60f758419be85d2e93427);
+            
+        
+
+        marker_d7598091f814e0f0fcccabb58276da33.bindPopup(popup_d980ac1ac9dfc91f577eeeaa3a70fa31)
+        ;
+
+        
+    
+    
+            var marker_883f6582c2940f93edf49cddbdf743dd = L.marker(
+                [19.12, 72.8],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_0dcd7e49dfc13108e733bf6611278b12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "handshake", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_883f6582c2940f93edf49cddbdf743dd.setIcon(icon_0dcd7e49dfc13108e733bf6611278b12);
+        
+    
+        var popup_b2cfcd082293ddee0ec28fd938293e65 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_300d03986674f79ef38d874903d9f182 = $(`<div id="html_300d03986674f79ef38d874903d9f182" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Ram" alt="Ram" style="width: 40px;height:auto;">                     <strong>Ram</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[rm]</strong>                     <span>Availability: 1/10</span><span>Expertise: ['loans', 'credit cards']</span>                 </div>             </div>             </div>`)[0];
+                popup_b2cfcd082293ddee0ec28fd938293e65.setContent(html_300d03986674f79ef38d874903d9f182);
+            
+        
+
+        marker_883f6582c2940f93edf49cddbdf743dd.bindPopup(popup_b2cfcd082293ddee0ec28fd938293e65)
+        ;
+
+        
+    
+    
+            var marker_56816ac2da24224d4dd9107c82440a8e = L.marker(
+                [19.06, 72.98],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_4c8d6c2a6bf226db0a0636b4f76dc489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "handshake", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_56816ac2da24224d4dd9107c82440a8e.setIcon(icon_4c8d6c2a6bf226db0a0636b4f76dc489);
+        
+    
+        var popup_32bb5ce137aaadd3c42fc1d3b9ac8b0a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2a4ba5ce2261b8d845bbc5bd6e2bd595 = $(`<div id="html_2a4ba5ce2261b8d845bbc5bd6e2bd595" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Shyam" alt="Shyam" style="width: 40px;height:auto;">                     <strong>Shyam</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[rm]</strong>                     <span>Availability: 4/10</span><span>Expertise: ['personal banking', 'insurance']</span>                 </div>             </div>             </div>`)[0];
+                popup_32bb5ce137aaadd3c42fc1d3b9ac8b0a.setContent(html_2a4ba5ce2261b8d845bbc5bd6e2bd595);
+            
+        
+
+        marker_56816ac2da24224d4dd9107c82440a8e.bindPopup(popup_32bb5ce137aaadd3c42fc1d3b9ac8b0a)
+        ;
+
+        
+    
+    
+            var marker_b47020f6576c874bd89a7718dc50d4b2 = L.marker(
+                [19.3, 72.86],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_5a35079f49165d9902d1dc39c01e6804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b47020f6576c874bd89a7718dc50d4b2.setIcon(icon_5a35079f49165d9902d1dc39c01e6804);
+        
+    
+        var popup_7039df34d2bef347dd85f8d7f1d108c0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_37cf95c350fa5ea96dea7156ad865d3b = $(`<div id="html_37cf95c350fa5ea96dea7156ad865d3b" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Tata Motors" alt="Tata Motors" style="width: 40px;height:auto;">                     <strong>Tata Motors</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.5</span><span>Product Pitch: insurance</span>                 </div>             </div>             </div>`)[0];
+                popup_7039df34d2bef347dd85f8d7f1d108c0.setContent(html_37cf95c350fa5ea96dea7156ad865d3b);
+            
+        
+
+        marker_b47020f6576c874bd89a7718dc50d4b2.bindPopup(popup_7039df34d2bef347dd85f8d7f1d108c0)
+        ;
+
+        
+    
+    
+            var marker_03e833f7a5750685bc5f17d5db0b767b = L.marker(
+                [19.01, 72.85],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_f628adc453d23ec1d572543788fa96b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_03e833f7a5750685bc5f17d5db0b767b.setIcon(icon_f628adc453d23ec1d572543788fa96b3);
+        
+    
+        var popup_02bec79061127cc9f8027555cd9c55a8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_27d89be542eff8630a508bf324c56f30 = $(`<div id="html_27d89be542eff8630a508bf324c56f30" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Bajaj Auto" alt="Bajaj Auto" style="width: 40px;height:auto;">                     <strong>Bajaj Auto</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.7</span><span>Product Pitch: loans</span>                 </div>             </div>             </div>`)[0];
+                popup_02bec79061127cc9f8027555cd9c55a8.setContent(html_27d89be542eff8630a508bf324c56f30);
+            
+        
+
+        marker_03e833f7a5750685bc5f17d5db0b767b.bindPopup(popup_02bec79061127cc9f8027555cd9c55a8)
+        ;
+
+        
+    
+    
+            var marker_f0d1d1389fcc8fdd044f80ebfa0b0fb4 = L.marker(
+                [19.27, 72.96],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_6f7e256ba427c0e32df41bceb9183e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f0d1d1389fcc8fdd044f80ebfa0b0fb4.setIcon(icon_6f7e256ba427c0e32df41bceb9183e4f);
+        
+    
+        var popup_50cddd413203d134ea15ad53e781b061 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2931b28716c74e5958840b212cc80485 = $(`<div id="html_2931b28716c74e5958840b212cc80485" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Raymond Textiles" alt="Raymond Textiles" style="width: 40px;height:auto;">                     <strong>Raymond Textiles</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.8</span><span>Product Pitch: credit cards</span>                 </div>             </div>             </div>`)[0];
+                popup_50cddd413203d134ea15ad53e781b061.setContent(html_2931b28716c74e5958840b212cc80485);
+            
+        
+
+        marker_f0d1d1389fcc8fdd044f80ebfa0b0fb4.bindPopup(popup_50cddd413203d134ea15ad53e781b061)
+        ;
+
+        
+    
+    
+            var marker_9b1192636615348dfbd983063f601388 = L.marker(
+                [19.27, 72.86],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_845af6923454279839cacdab639709ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9b1192636615348dfbd983063f601388.setIcon(icon_845af6923454279839cacdab639709ff);
+        
+    
+        var popup_06af8a732a5284da055ce58f5725f601 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4c2a9fd72b075b889c1b53cfe763a236 = $(`<div id="html_4c2a9fd72b075b889c1b53cfe763a236" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Grasim Exports" alt="Grasim Exports" style="width: 40px;height:auto;">                     <strong>Grasim Exports</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.6</span><span>Product Pitch: investments</span>                 </div>             </div>             </div>`)[0];
+                popup_06af8a732a5284da055ce58f5725f601.setContent(html_4c2a9fd72b075b889c1b53cfe763a236);
+            
+        
+
+        marker_9b1192636615348dfbd983063f601388.bindPopup(popup_06af8a732a5284da055ce58f5725f601)
+        ;
+
+        
+    
+    
+            var marker_de52d1d4c7465c2a80639db241886f63 = L.marker(
+                [19.13, 72.79],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_583087b12c9663beb0fc949171a89f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_de52d1d4c7465c2a80639db241886f63.setIcon(icon_583087b12c9663beb0fc949171a89f57);
+        
+    
+        var popup_2fde2895a3e97982857f7681221a9b9b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2177203c87c04d8e075125e9ea92d623 = $(`<div id="html_2177203c87c04d8e075125e9ea92d623" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Rajiv Sighania" alt="Rajiv Sighania" style="width: 40px;height:auto;">                     <strong>Rajiv Sighania</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.4</span><span>Product Pitch: personal banking</span>                 </div>             </div>             </div>`)[0];
+                popup_2fde2895a3e97982857f7681221a9b9b.setContent(html_2177203c87c04d8e075125e9ea92d623);
+            
+        
+
+        marker_de52d1d4c7465c2a80639db241886f63.bindPopup(popup_2fde2895a3e97982857f7681221a9b9b)
+        ;
+
+        
+    
+    
+            var marker_96e9c07d320464a9b9bddbdcbde119a2 = L.marker(
+                [19.17, 73.02],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_ee088072bddedb0d29123601f8633479 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_96e9c07d320464a9b9bddbdcbde119a2.setIcon(icon_ee088072bddedb0d29123601f8633479);
+        
+    
+        var popup_a5a170a90564971a527f838733485cfa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f13175861338e6e16b9707f561c2601 = $(`<div id="html_3f13175861338e6e16b9707f561c2601" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Raju Srivastava" alt="Raju Srivastava" style="width: 40px;height:auto;">                     <strong>Raju Srivastava</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.3</span><span>Product Pitch: loans</span>                 </div>             </div>             </div>`)[0];
+                popup_a5a170a90564971a527f838733485cfa.setContent(html_3f13175861338e6e16b9707f561c2601);
+            
+        
+
+        marker_96e9c07d320464a9b9bddbdcbde119a2.bindPopup(popup_a5a170a90564971a527f838733485cfa)
+        ;
+
+        
+    
+    
+            var marker_1f89cbca4ff82519af8142c689c02566 = L.marker(
+                [19.0, 72.9],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_4c0dc61a6b3f7891c74772163b8c8b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1f89cbca4ff82519af8142c689c02566.setIcon(icon_4c0dc61a6b3f7891c74772163b8c8b02);
+        
+    
+        var popup_f695ec857dd60dcd7a31b1869d8bee7e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5b087c7f9099ef4692fc59731e784cf2 = $(`<div id="html_5b087c7f9099ef4692fc59731e784cf2" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Grace Pinto" alt="Grace Pinto" style="width: 40px;height:auto;">                     <strong>Grace Pinto</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.5</span><span>Product Pitch: insurance</span>                 </div>             </div>             </div>`)[0];
+                popup_f695ec857dd60dcd7a31b1869d8bee7e.setContent(html_5b087c7f9099ef4692fc59731e784cf2);
+            
+        
+
+        marker_1f89cbca4ff82519af8142c689c02566.bindPopup(popup_f695ec857dd60dcd7a31b1869d8bee7e)
+        ;
+
+        
+    
+    
+            var marker_8fdde865662d5cb6f0e9831bf9e45d46 = L.marker(
+                [19.0, 72.81],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_63bb83f3fea7df20e3520262fb71575f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8fdde865662d5cb6f0e9831bf9e45d46.setIcon(icon_63bb83f3fea7df20e3520262fb71575f);
+        
+    
+        var popup_f4847dd6e3bda1131120cbaa2bbf9079 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b81e9f85edba65e800cab58be8fd2a3c = $(`<div id="html_b81e9f85edba65e800cab58be8fd2a3c" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Shalini Bhat" alt="Shalini Bhat" style="width: 40px;height:auto;">                     <strong>Shalini Bhat</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.6</span><span>Product Pitch: credit cards</span>                 </div>             </div>             </div>`)[0];
+                popup_f4847dd6e3bda1131120cbaa2bbf9079.setContent(html_b81e9f85edba65e800cab58be8fd2a3c);
+            
+        
+
+        marker_8fdde865662d5cb6f0e9831bf9e45d46.bindPopup(popup_f4847dd6e3bda1131120cbaa2bbf9079)
+        ;
+
+        
+    
+    
+            var marker_b1a91b3c2d84cfe3511865cf8287007b = L.marker(
+                [19.27, 72.89],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_8f51893dbbb8f5b3cd2de6ac2fe4f8c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b1a91b3c2d84cfe3511865cf8287007b.setIcon(icon_8f51893dbbb8f5b3cd2de6ac2fe4f8c8);
+        
+    
+        var popup_151a1c5dbf5a76f4f7d43c2c20410716 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4fe94ec6e7f15771123a512e25a23722 = $(`<div id="html_4fe94ec6e7f15771123a512e25a23722" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Rafeeq Ali" alt="Rafeeq Ali" style="width: 40px;height:auto;">                     <strong>Rafeeq Ali</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.7</span><span>Product Pitch: investments</span>                 </div>             </div>             </div>`)[0];
+                popup_151a1c5dbf5a76f4f7d43c2c20410716.setContent(html_4fe94ec6e7f15771123a512e25a23722);
+            
+        
+
+        marker_b1a91b3c2d84cfe3511865cf8287007b.bindPopup(popup_151a1c5dbf5a76f4f7d43c2c20410716)
+        ;
+
+        
+    
+    
+            var marker_2fd729f2fcf0c605b755ef85f5355e4b = L.marker(
+                [18.9, 72.81],
+                {}
+            ).addTo(map_18433e80e105162152426b28b0769e14);
+        
+    
+            var icon_c8fd048c1d9791e386f0488108d53344 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2fd729f2fcf0c605b755ef85f5355e4b.setIcon(icon_c8fd048c1d9791e386f0488108d53344);
+        
+    
+        var popup_2d1638b4445febe8e29b29fb7d2ef3ee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_39e9dbb944a8ba4c0b0e9a840f37fdd5 = $(`<div id="html_39e9dbb944a8ba4c0b0e9a840f37fdd5" style="width: 100.0%; height: 100.0%;">             <div style="display:flex">                    <div style="display: flex;align-items: center; flex-direction: column;margin: 5px;align-items: center;">                     <img src="https://avatar.iran.liara.run/username?username=Daji Dorjee" alt="Daji Dorjee" style="width: 40px;height:auto;">                     <strong>Daji Dorjee</strong>                  </div>                 <div style="flex-grow: 1; display:flex; flex-direction:column; align-items:flex-start;">                      <strong>[lead]</strong>                     <span>Propensity: 0.8</span><span>Product Pitch: personal banking</span>                 </div>             </div>             </div>`)[0];
+                popup_2d1638b4445febe8e29b29fb7d2ef3ee.setContent(html_39e9dbb944a8ba4c0b0e9a840f37fdd5);
+            
+        
+
+        marker_2fd729f2fcf0c605b755ef85f5355e4b.bindPopup(popup_2d1638b4445febe8e29b29fb7d2ef3ee)
+        ;
+
+        
+    
+</script>
+</html>
